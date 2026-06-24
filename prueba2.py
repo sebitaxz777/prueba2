@@ -26,4 +26,4 @@ def agregar_reserva(lista_r):
 def validar_nombre(nombre):
     return nombre.strip().upper() != ""
 def validar_habitacion(hab):
-    
+    return hab.strip().upper() != ""
